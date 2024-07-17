@@ -1,0 +1,22 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config 1080p */
+
+@import "~/.config/rofi/master-config.rasi" 
+
+/* ---- Configuration ---- */
+configuration {
+	font: "Fira Code SemiBold 12";
+}
+
+element-text {
+    font:	"Fira Code SemiBold 14";
+}
+
+
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+@theme "/home/guy/.local/share/rofi/themes/simple-tokyonight.rasi"
