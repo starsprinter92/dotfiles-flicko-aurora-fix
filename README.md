@@ -6,7 +6,7 @@
  ❄️ hyprland / aurora / catppuccin ❄️
 ```
 
-
+tell me if anything's broken lol
 # gallery
 ![pipes](./assets/pipes.png)
 ![fetch](./assets/fetch.png)
@@ -45,8 +45,8 @@ paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kit
 ## moving config files
 
 ```bash
-git clone -b aurora https://github.com/starsprinter92/dotfiles
-cd dotfiles
+git clone -b aurora https://github.com/starsprinter92/dotfiles-flicko-aurora-fix
+cd dotfiles-flicko-aurora-fix
 cp -r ./config/* ~/.config
 ```
 
