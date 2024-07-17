@@ -8,8 +8,9 @@
 
 tell me if anything's broken lol
 # gallery
-![pipes](./assets/pipes.png)
-![fetch](./assets/fetch.png)
+![image](https://github.com/user-attachments/assets/c7980d56-847f-487f-a3bb-9b053f0f23fc)
+![image](https://github.com/user-attachments/assets/e7da2f75-af16-4e95-ab1b-313e679a0f8c)
+
  
 
 https://user-images.githubusercontent.com/77581181/204240865-8a272152-7c31-45f9-a46b-47099b071060.mp4
