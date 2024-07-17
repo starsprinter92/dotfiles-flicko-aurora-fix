@@ -1,21 +1,27 @@
 #!/usr/bin/bash
 
+
 # variables
 config=$HOME/.config/hypr
 scripts=$config/scripts
 
+
 # notification daemon
 dunst &
+
 
 # waybar
 $scripts/launch_waybar &
 $scripts/tools/dynamic &
 
+
 # wallpaper
 $scripts/wall $config/wallpapers/4.jpg &
 
+
 # effects
-$scripts/rgb &
+#$scripts/rgb &
+
 
 # other
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
