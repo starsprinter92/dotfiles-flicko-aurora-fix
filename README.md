@@ -10,6 +10,7 @@ tell me if anything's broken lol
 # gallery
 ![image](https://github.com/user-attachments/assets/c7980d56-847f-487f-a3bb-9b053f0f23fc)
 ![image](https://github.com/user-attachments/assets/e7da2f75-af16-4e95-ab1b-313e679a0f8c)
+![image](https://github.com/user-attachments/assets/e6089643-f65a-4a31-a3ca-0ed2f9a6c842)
 
  
 
