@@ -200,7 +200,7 @@ window#waybar {
 
     animation: gradient_f_nh 4s linear infinite;
     margin-right: 25px;
-    color: #fff ;
+    color: #000 ;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
     
     font-size: 15px;
