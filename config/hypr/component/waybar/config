@@ -9,7 +9,7 @@
     // "margin-right":25,
     "margin-bottom":-11,
     //"margin-top":5,
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-right": ["temperature","network","battery","custom/ss","custom/cycle_wall","custom/expand","cpu","clock"],
     "modules-center": ["custom/dynamic_pill"],
     // Modules configuration
@@ -61,7 +61,7 @@
             "unlocked": ""
         }
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "format": "{icon}",
         "format-active": " {icon} ",
         "on-click": "activate"
