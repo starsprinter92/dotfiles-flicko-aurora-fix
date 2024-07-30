@@ -141,4 +141,4 @@ set XDG_CURRENT_DESKTOP sway
 
 
 # Created by `pipx` on 2022-09-11 05:02:32
-set PATH $PATH /home/flicko/.local/bin
+set PATH $PATH /home/$USER/.local/bin
