@@ -59,6 +59,7 @@ mkdir ~/.config/hypr/store
 touch ~/.config/hypr/store/dynamic_out.txt
 touch ~/.config/hypr/store/prev.txt
 touch ~/.config/hypr/store/latest_notif
+cp -r ~/dotfiles-flicko-aurora-fix/local/* ~/.local/
 
 chmod +x ~/.config/hypr/scripts/tools/*
 chmod +x ~/.config/hypr/scripts/*
