@@ -41,7 +41,7 @@ hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish 
 ```
 using `paru`
 ```
-paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git btop tty-clock ttf-firacode-nerd donut.c fastfetch code-insiders-bin
+paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git btop tty-clock ttf-firacode-nerd donut.c fastfetch code-insiders-bin
 ```
 
 ## moving config files
@@ -68,13 +68,21 @@ chmod +x ~/.config/hypr/*
 
 ## building the tools used in this rice
 
-`rgb-borders` | rgb borders for grouped windows
+`rgb borders` | rgb borders for grouped windows
 ```bash
 git clone https://github.com/flick0/rgb-rs
 cd rgb-rs
 cargo build --release
 cp ./target/release/rgb ~/.config/hypr/scripts/
 ```
+`swaylockd` | a dumb launcher to spawn swaylock and ensure it runs no matter what (required if you want to lock the screen
+```bash
+wget https://github.com/jirutka/swaylockd/archive/v0.1.0/swaylockd-0.1.0.tar.gz
+tar -xzf swaylockd-0.1.0.tar.gz
+cd swaylockd-0.1.0
 
+make build
+make install DESTDIR=/ prefix=/usr/local
+```
 
 
