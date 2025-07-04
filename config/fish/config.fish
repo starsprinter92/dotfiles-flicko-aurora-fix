@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     #pokemon-colorscripts -r --no-title &&
     #command clear; echo; echo; seq 1 (tput cols) | sort -R | spark | toilet -f term --rainbow; echo; echo
-    fastfetch -l ~/.config/fastfetch/ascii.txt|lolcat
+    fastfetch -l ~/.config/fastfetch/ascii.txt
 	  starship init fish | source &
 	  ~/.config/fish/tty.sh &
 end
@@ -146,7 +146,6 @@ alias bat='bat --theme="Catppuccin-mocha"'
 alias hc=herbstclient
 alias code='code-insiders'
 set MOZ_ENABLE_WAYLAND 1
-set XDG_CURRENT_DESKTOP sway
 
 
 # Created by `pipx` on 2022-09-11 05:02:32
