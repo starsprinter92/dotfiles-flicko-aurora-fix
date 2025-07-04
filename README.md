@@ -6,7 +6,7 @@
  ❄️ hyprland / aurora / catppuccin ❄️
 ```
 
-tell me if anything's broken lol
+tell me if anything's broken lol (im back)
 # gallery
 ![image](https://github.com/user-attachments/assets/c7980d56-847f-487f-a3bb-9b053f0f23fc)
 ![image](https://github.com/user-attachments/assets/e7da2f75-af16-4e95-ab1b-313e679a0f8c)
@@ -41,7 +41,7 @@ hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish 
 ```
 using `paru`
 ```
-paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git
+paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git btop
 ```
 
 ## moving config files
