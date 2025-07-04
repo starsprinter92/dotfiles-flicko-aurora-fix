@@ -41,7 +41,7 @@ hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish 
 ```
 using `paru`
 ```
-paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git btop
+paru -S hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-hyprland-git tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git swww-git btop tty-clock ttf-firacode-nerd donut.c fastfetch
 ```
 
 ## moving config files
@@ -52,7 +52,7 @@ cd dotfiles-flicko-aurora-fix
 cp -r ./config/* ~/.config
 ```
 
-## additional setup
+## additional setup (required)
 
 ```bash
 mkdir ~/.config/hypr/store
